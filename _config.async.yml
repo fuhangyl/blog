@@ -1,0 +1,228 @@
+# 用户信息
+user:
+  name: 三生有幸
+  first_name: #三生
+  last_name: #有幸
+  email: 1358918259@qq.com
+  domain: https://github.com/fuhangyl
+  avatar: /images/avatar.jpg
+  describe: 醒，亦在人间；梦，亦在人间。
+  ruleText: <br/>暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+
+# 图标
+favicon:
+  logo: /images/avatar.jpg
+  #logo: favicon-32x32.png
+  icon16: /images/favicon.png
+  icon32: /images/favicon.png
+  appleTouchIcon: /images/favicon.png
+  webmanifest: /site.webmanifest
+  visibilitychange: true
+
+# 头部菜单
+top_bars:
+  - title: menu.home
+    url: /
+  - title: menu.archives
+    url: /archives/
+#  - title: menu.links
+#    url: /links/
+#  - title: 树洞
+#    url: /comment/
+#  - title: menu.projects
+#    url: /projects/
+#  - title: menu.about
+#    url: /about/
+
+# 横幅配置
+banner:
+  default:
+    type: video
+    bgurl: //cdn.moji.com/websrc/video/autumn20190924.mp4
+  index:
+    type: video
+    bgurl: //cdn.moji.com/websrc/video/autumn20190924.mp4
+    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+    bannerText: Hi my new friend!
+  archive:
+    type: video
+    bgurl: //cdn.moji.com/websrc/video/autumn20190924.mp4
+  links:
+    type: video
+    bgurl: //cdn.moji.com/websrc/video/autumn20190924.mp4
+  about:
+    type: video
+    bgurl: //cdn.moji.com/websrc/video/autumn20190924.mp4
+
+# 侧栏
+sidebar:
+  typedTextPrefix: I`m
+  typedText: [ 'Web Developer' ]
+  info: 
+    - key: 职业
+      val: Web 前端
+    - key: 职位
+      val: 🏆首席摸鱼官
+    - key: 介绍
+      val: 越努力，越幸运
+  social:
+    - icon: icon-github
+      url: https://github.com/fuhangyl
+      name: Github
+#    - icon: icon-gitee
+#      url: https://gitee.com/ml13
+#      name: Gitee
+#    - icon: icon-weibo
+#      url: https://weibo.com/u/5022481764
+#      name: Weibo
+#    - icon: icon-rss
+#      url: atom.xml
+#      name: RSS
+    
+# 页尾
+footer:
+  # Hexo link (Powered by Hexo).
+  powered:
+    enable: false
+  # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
+  # https://beian.miit.gov.cn/
+  beian:
+    enable: false
+    icp: 
+  # Copyright date
+  copyrightYear: 2019
+  # 
+  live_time:
+    enable: false
+    prefix: footer.tips
+    start_time: 1/29/2024 17:00:00 #计时开始时间
+  #
+  custom_text: 竹外桃花三两只，春江水暖鸭先吃
+
+# 开启 Service Worker
+sw: true
+
+# rss 地址
+rss: atom.xml
+
+# 网页访问统计
+#webAnalytics:
+#  enable: true
+#  baidu: bbad9d8e1fd8e044d365c2ce0d114c73
+
+cover:
+  type: date
+
+# 查询
+search:
+  enable: true
+  type: local
+  preload: true
+  trigger: auto
+
+# 捐赠
+#reward:
+#  enable: true
+#  methods:
+#    - name: 微信
+#      path: /images/reward/wx_pay.jpg
+#    - name: 支付宝
+#      path: /images/reward/alipay.jpg
+#    - name: QQ
+#      path: /images/reward/qq_pay.jpg
+
+# 归档页
+archive:
+  type: more
+
+# 主题
+theme: 
+  switch: false 
+  default: auto
+
+# 版权信息
+creative_commons:
+  license: by-nc-sa
+  language: deed.zh
+  post: true
+  clipboard: false
+
+swup: true
+
+toc:
+  enable: true
+
+assets:
+  third_party_provider: https://npm.elemecdn.com
+  plugin:
+    twikoo: https://npm.elemecdn.com/twikoo@1.6.11/dist/twikoo.all.min.js
+  icons: 
+    type: symbol 
+    css:
+    js: //at.alicdn.com/t/c/font_3637590_i4hyyea14ur.js
+
+icons:
+  # 主题切换图标
+  sun: icon-sun
+  moon: icon-moon
+  # 首页视频播放
+  play: icon-yunhang
+  # 邮箱
+  email: icon-email
+  # 分类进入图标
+  next: icon-arrow-right
+  # 文章详情 日期
+  calendar: icon-rili
+  # 文章详情 时间
+  clock: icon-shijian
+  # 文章详情 作者
+  user: icon-yonghu
+  # 返回顶部 v1.1.3+
+  back_top: icon-backtop
+  # 查询 v1.1.5+
+  search: icon-chaxun
+  # 关闭 v1.1.5+
+  close: icon-guanbi
+  # 打赏 v1.1.7+
+  reward: icon-qiandai
+  # 用户信息和文章目录切换 v1.2.10+
+  user_tag: icon-yonghu1
+  toc_tag: icon-liebiao
+  # 右下角固定按钮 v1.2.11+
+  read: icon-yuedu
+  arrows: icon-arrows-h
+  # 代码块
+  double_arrows: icon-angle-double-down
+  copy: icon-copy
+
+highlight:
+  theme: true # 
+  title: mac # mac | default
+  copy: true # copy button
+  lang: true # show the code language
+  height_limit: 200 # unit: px
+
+post_pagination: 
+  enable: true 
+  type: small # large || small
+
+layout:
+  fixed_btn: async/fixed-btn
+  header_search: async/empty
+  post_card: async/post-card
+
+datetime_foramt:
+  post_card:
+    date: YY/MM/DD
+    time: HH:mm
+  post_info:
+    date: YY/MM/DD
+    time: HH:mm
+  archive:
+    date: YY/MM/DD
+    time: HH:mm
+
+comment:
+  twikoo:
+    enable: true
+    envId:
