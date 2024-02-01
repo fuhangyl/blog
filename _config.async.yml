@@ -196,11 +196,15 @@ icons:
   copy: icon-copy
 
 highlight:
-  theme: true # 
+  enable: true
+  theme: true #
   title: mac # mac | default
   copy: true # copy button
   lang: true # show the code language
   height_limit: 200 # unit: px
+
+prismjs:
+  enable: false
 
 post_pagination: 
   enable: true 
@@ -224,5 +228,5 @@ datetime_foramt:
 
 comment:
   twikoo:
-    enable: true
+    enable: false
     envId:

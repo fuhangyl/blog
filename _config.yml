@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/fuhangyl
+url: https://fuhangyl.github.io/
 root: /
 permalink: :title/
 permalink_defaults:
@@ -45,6 +45,7 @@ relative_link: false
 future: true
 
 highlight:
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
