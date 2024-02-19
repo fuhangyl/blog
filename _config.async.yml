@@ -42,7 +42,7 @@ banner:
   index:
     type: video
     bgurl: //cdn.moji.com/websrc/video/autumn20190924.mp4
-    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+    bannerTitle: 学而不思则罔，<br>思而不学则殆。
     bannerText: Hi my new friend!
   archive:
     type: video
