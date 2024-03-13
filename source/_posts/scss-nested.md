@@ -1,14 +1,14 @@
 ---
-title: SCSS嵌套
+title: SASS嵌套
 comment: true
 date: 2024-03-05 17:45:54
 tags:
-description: SCSS嵌套
+description: SASS嵌套
 categories: SASS
 keywords: SASS，Sass，选择器嵌套，属性嵌套，伪类嵌套
 ---
 
-Scss中提供了三种嵌套方式：
+SASS中提供了三种嵌套方式：
 1. 选择器嵌套
 2. 属性嵌套
 3. 伪类嵌套
