@@ -15,7 +15,7 @@ comments: false
     <div class="col-lg-12">
         <h5 class="trm-title-with-divider">作者 <span data-number="01"></span></h5>
         <div class="trm-card trm-active-el">
-            大家好，我是 <strong>白云苍狗</strong>，很高兴您能在浩瀚如烟的互联网世界里发现这个博客，更感谢您能够饶有兴致地浏览这个页面。建立这个 Blog 是出于兴趣爱好，我将在此分会分享一些学习笔记，可能还会分享少许图片、视频以及其他有趣东西的链接。
+            大家好，我是 <strong>三生有幸</strong>，很高兴您能在浩瀚如烟的互联网世界里发现这个博客，更感谢您能够饶有兴致地浏览这个页面。建立这个 Blog 是出于兴趣爱好，我将在此分会分享一些学习笔记，可能还会分享少许图片、视频以及其他有趣东西的链接。
         </div>
     </div>
 </div>
